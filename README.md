@@ -3,7 +3,7 @@
 
 Advanced Kernel Exploit Prediction System for Linux/Windows
 
-![KernelHound Banner](docs/banner.png)
+
 
 ## Features
 
@@ -80,9 +80,7 @@ CVE-2023-3008,2023-04-22,kernel,nvidia_gpu,buffer-overflow
 | `[i]` Blue text    | Info     | Security-relevant configuration |
 | `[✓]` Green text   | Secure   | Properly configured setting     |
 
-## Examples
 
-![Example Output](docs/example_linux.png)
 
 ## Windows Support
 
@@ -134,16 +132,3 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 > This tool may trigger security alerts on monitored systems. Use with proper authorization.
 ```
 
-### Recommended File Structure
-
-```
-kernelhound/
-├── docs/
-│   ├── banner.png
-│   └── example_linux.png
-├── tests/
-│   └── kernelhound.bats
-├── CONTRIBUTING.md
-├── kernelhound.sh
-└── README.md
-```
