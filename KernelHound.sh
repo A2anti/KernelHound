@@ -1,5 +1,5 @@
 #!/bin/bash
-# KernelHound v2 - Advanced Kernel Exploit Heuristic Analyzer
+# KernelHound v2 
 # Usage: ./kernelhound.sh [linux|windows] [driver_name|all] [-v]
 # License: GPLv3
 
